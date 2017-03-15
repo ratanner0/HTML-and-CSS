@@ -1,0 +1,41 @@
+/*
+   New Perspectives on HTML
+   Tutorial 3
+   Case Problem 1
+
+   ICI Text and Color Styles
+   Author: Richard A. Tanner
+   Date:   6/18/2015
+
+   Filename:         richardtanner-c_styles.css
+   Supporting Files: none
+
+*/
+/* Body Styles */
+body {
+background-color: black;
+color: white;
+font-family: 'Century Gothic', sans-serif;
+text-align: justify;
+}
+.keyword {
+color: yellow;
+font-weight: 400;
+}
+/* Heading Styles */
+h1 {
+color: yellow;
+font-family: 'Courier New', Courier;
+font-size: 28px;
+letter-spacing: 20px;
+text-align: center;
+}
+h2 {
+font-size: 24px;
+font-weight: 400;
+letter-spacing: 5px;
+}
+/* Footer Styles */
+footer p{
+text-align: center;
+}

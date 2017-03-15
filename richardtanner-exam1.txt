@@ -1,0 +1,24 @@
+<!Doctype html>
+<html>
+
+<head>
+<-- Richard A. Tanner Resume
+    Author: Richard A. Tanner
+    Date: 6/22/2015
+-->
+<meta charset="UTF-8" />
+<meta name="author" content="Richard A. Tanner" />
+<meta name="description" content="Exam 1" />
+<meta name="keywords" content="sonar, body recovery, underwater recovery, drowning" />
+<title> Richard A. Tanner </title>
+</head>
+<body>
+<header>
+	<h1>Richard A. Tanner /br
+	    3081 Thompson Rd. White Plains, GA 30678 /br
+	    richard.tanner@dnr.ga.gov /br
+	    (706) 955-3798 </h1>
+</body>
+<footer>
+</footer>
+</html>
