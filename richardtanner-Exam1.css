@@ -1,0 +1,24 @@
+/*
+Richard Tanner Resume Style Sheet
+Author: Richard A. Tanner
+Date: 6/22/2015
+*/
+/* Body Styles */
+body {
+background-color: yellow;
+font-family: Helvetica
+}
+ul {
+font-style: italic;
+}
+/* Heading Styles */
+h1 {
+background-color: yellow;
+color: black;
+
+}
+
+/* Navigation List Style */
+nav ul {
+list-style-type: none;
+}
