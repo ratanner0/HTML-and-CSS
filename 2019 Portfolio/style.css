@@ -1,0 +1,314 @@
+/* Set margin of 0 for whole page*/
+*{
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+iframe{
+	width: 1em;
+	height: 1em;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-bottom: 20px;
+}
+/* sets the style for each of the sections. This allows the paralax apperance*/
+.sect {
+	height: 100%;
+  width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/* Sets the style for the grey line that breaks each section*/
+.subSection {
+  position: relative;
+	height: 5%;
+	background-color: grey;
+	text-align: right;
+	padding-right: 25px;
+
+}
+/*Sets the image for the first section*/
+.sectOne{
+	background-image: url("images\\Ocean.jpg");
+	position: relative;
+
+	background-position: center;
+}
+.sectOne h1 {
+	text-align: center;
+	padding-top: 5%;
+	text-shadow: 1px 1px grey;
+}
+.video-foreground,
+.video-background iframe {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+}
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%;}
+}
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%;}
+}
+/* Styling for the slideshow that shows in section one*/
+.slideshow {
+	text-shadow:none;
+	height: 50vh;
+	width: 50vw;
+  padding-top: 25vh;
+  max-width:50vw;
+  max-height: 50vh;
+  position: relative;
+  border-radius:7px;
+  -webkit-border-radius:7px;
+  -moz-border-radius:7px;
+}
+.slideshow img{
+	animation:fading 9s infinite;
+	width: 50vw;
+	height: 50vh;
+  box-shadow: 0 0 8px 8px lightblue;
+	
+}
+	@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+/* sets the style for section two*/
+.sectTwo {
+ 	position: relative;
+	background-image: url("pics/sunset.jpg");
+	background-position: center;
+}
+.sectTwo img {
+	float: right;
+	padding: 30px;
+	width:35%;
+	height:75%;
+}
+h2, h3, h4, h5 {
+	text-align: center;
+	text-shadow: 1px 1px grey;
+}
+/* for the aside in the about me section*/
+aside  {
+	text-shadow:none;
+	background-color:rgba(255,255,255,0.9);
+	padding: 10px 20px 30px 20px;
+  max-width:55vw;
+  float: left;
+  position: absolute;
+  margin-top:30px;
+  margin-left: 10px;
+  border-radius:7px;
+  -webkit-border-radius:7px;
+  -moz-border-radius:7px;
+}
+aside h2 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 40px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+}
+/* sets the style for the third section*/
+.sectThree {
+	background-image: url("pics/web.jpg");
+	position: relative
+	opacity: 0.6;
+	background-position: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+/*sets the style for the fourth section*/
+.sectFour {
+	background-image: url("pics/path.jpg");
+	position: relative;
+	background-position: center;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.sectThree h2, .sectFour h2 {
+	text-align: left;
+}
+/* Styling for the footer*/
+footer {
+	position: fixed;
+	bottom: 0px;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 40px;
+	font-family: Arial;
+	text-shadow:1px 1px 1px black;
+	border-top: 1px solid rgba(0,0,0,0.3);
+	background:rgba(0,0,0,0.25);
+	box-shadow: inset 0 1px rgba(255,255,255,0.3),
+	inset 0 10px rgba(255,255,255,0.2),
+	inset 0 10px 20px rgba(255,255,255,0.25),
+	inset 0 -15px 30px rgba(0,0,0,0.3);
+	text-align: right;
+}
+/* style for the social media icons*/
+.social{ 
+	overflow:hidden;
+	float:left;
+	padding: 5%;
+}
+.social a{ 
+  display:block; 
+	width:100px;
+	height:100px; 
+	overflow:hidden; 
+	margin-left: 6em;
+}
+.social a:first-child{
+	margin: 0 0 0 0;
+}
+.social a:hover img{ 
+	
+}
+/* Styling for the navigation bar*/
+nav {
+	text-align: left;
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	z-index: 99;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	margin-left: 30px;
+	line-height: 50px;
+}
+/* The following is the styling for the contact form*/
+.sectFour h1 {
+   margin: 10px 0 0 0;
+   text-align: center;
+   color: white;
+}
+.sectFour h4{
+	text-shadow:none;
+   margin: 0 0 20px 0;
+   text-align: center;
+   color: white;
+}
+#contact-form {
+   background-color:rgba(72,72,72,0.9);
+   padding: 10px 20px 30px 20px;
+   max-width:100%;
+   float: left;
+   left: 50%;
+   position: absolute;
+   margin-top:30px;
+   margin-left: -260px;
+   border-radius:7px;
+   -webkit-border-radius:7px;
+   -moz-border-radius:7px;
+}
+#contact-form input,   
+#contact-form select,   
+#contact-form textarea,   
+#contact-form label,
+#contact-form h3 { 
+   font-size: 15px;  
+   margin-bottom: 2px;
+   font-family: Arial, san-serif;
+} 
+#contact-form label, 
+#contact-form h3 {
+	color: white;
+	text-shadow:none;
+}
+#contact-form input,   
+#contact-form select,   
+#contact-form textarea { 
+   width:100%;
+   background: #fff;
+   border: 0; 
+   -moz-border-radius: 4px;  
+   -webkit-border-radius: 4px;  
+   border-radius: 4px;
+   margin-bottom: 25px;  
+   padding: 5px;  
+}  
+#contact-form input:focus,   
+#contact-form select:focus,   
+#contact-form textarea:focus {  
+   background-color: #E5E6E7; 
+}  
+#contact-form textarea {
+   width:100%;
+   height: 150px;
+}
+#contact-form button[type="submit"] {
+   cursor:pointer;
+   width:100%;
+   border:none;
+   background:#000080;
+   background-image:linear-gradient(bottom, #4C4CA6 0%, #000080 52%);
+   background-image:-moz-linear-gradient(bottom, #4C4CA6 0%, #000080 52%);
+   background-image:-webkit-linear-gradient(bottom, #4C4CA6 0%, #000080 52%);
+   color:#FFF;
+   margin:0 0 5px;
+   padding:10px;
+   border-radius:5px;
+}
+#contact-form button[type="submit"]:hover {
+   background-image:linear-gradient(bottom, #000080 0%, #000059 52%);
+   background-image:-moz-linear-gradient(bottom, #000080 0%, #000059 52%);
+   background-image:-webkit-linear-gradient(bottom, #000080 0%, #000059 52%);
+   -webkit-transition:background 0.3s ease-in-out;
+   -moz-transition:background 0.3s ease-in-out;
+   transition:background-color 0.3s ease-in-out;
+}
+#contact-form button[type="submit"]:active {
+   box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+}
+#contact-form button[type="reset"] {
+   cursor:pointer;
+   width:100%;
+   border:none;
+   background:#000080;
+   background-image:linear-gradient(bottom, #4C4CA6 0%, #000080 52%);
+   background-image:-moz-linear-gradient(bottom, #4C4CA6 0%, #000080 52%);
+   background-image:-webkit-linear-gradient(bottom, #4C4CA6 0%, #000080 52%);
+   color:#FFF;
+   margin:0 0 5px;
+   padding:10px;
+   border-radius:5px;
+}
+#contact-form button[type="reset"]:hover {
+   background-image:linear-gradient(bottom, #000080 0%, #000059 52%);
+   background-image:-moz-linear-gradient(bottom, #000080 0%, #000059 52%);
+   background-image:-webkit-linear-gradient(bottom, #000080 0%, #000059 52%);
+   -webkit-transition:background 0.3s ease-in-out;
+   -moz-transition:background 0.3s ease-in-out;
+   transition:background-color 0.3s ease-in-out;
+}
+#contact-form button[type="reset"]:active {
+   box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+input:required, textarea:required {  
+   box-shadow: none;
+   -moz-box-shadow: none;  
+   -webkit-box-shadow: none;  
+   -o-box-shadow: none;  
+} 
+#contact-form .required {  
+   font-weight:bold;  
+   color: #E5E6E7;      
+}
+/*End of styling for Contact Form*/
+

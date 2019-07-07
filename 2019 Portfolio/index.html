@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Richard Tanner's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div id="home"></div>
+
+<div class="sect sectOne">
+<div class="video-background">
+    <div class="video-foreground">
+      <iframe src="pics\Waterfall.mp4" frameborder="0" allowfullscreen loop="infinite" muted></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="subSection"><h1 id="about me">ABOUT ME</h1></div>
+
+<div class="sect sectTwo">
+<img src="images\self.jpg" alt="Richard A. Tanner" >
+<aside><h2>Hi!  I'm Richard.  Thank you for stopping by.</h2> 
+
+Well, If you have made it this far on my page, thank you.  My name is Richard Tanner, and this is my first attempt at creating my own personal website.  
+<p></p> 
+I am an aspiring Web and Software Developer.  While I did learn the basics of Web development in college, most of what I have learned has come via self-education.  Countless hours have been spent picking the brains of my mentors as well as combing through the vast array of information available on the internet. 
+<p></p>
+When not honing my development skills, I enjoy spending time with my fellow "horde" members at <a href="http://www.zombiefarms.com/">Zombie Farms</a> as one of the scare actors.
+
+
+</aside>
+</div>
+
+<div class="subSection"><h1 id="portfolio">Portfolio</h1></div>
+
+<div class="sect sectThree">
+	<div class="social">
+	<h2>View my work on GitHub</h2>
+	<a href="https://github.com/ratanner0" title="GitHub"><img src="icons/github.png" width="100" height="100" alt=""></a>
+	</div>
+</div>
+
+<div class="subSection"><h1 id="contact">CONTACT</h1></div>
+<div class="sect sectFour">
+<div id="contact-form">
+	<div>
+		<h1>Nice to Meet You!</h1> 
+		<h4>Have a question or just want to get in touch? Let's chat.</h4> 
+	</div>
+		<!--<p id="failure">I'm sorry.... Something went wrong and your message was not sent</p>  
+		<p id="success">Your message was sent successfully. Thank you!</p>-->
+
+		   <form method="post" action="mailto:youremail@youremail.com">
+
+			<div>
+		      <label for="name">
+		      	<span class="required">Name: *</span> 
+		      	<input type="text" id="name" name="name" value="" placeholder="Your Name" required="required" tabindex="1"  />
+		      </label> 
+			</div>
+			<div>
+		      <label for="email">
+		      	<span class="required">Email: *</span>
+		      	<input type="email" id="email" name="email" value="" placeholder="Your Email" tabindex="2" required="required" />
+		      </label>  
+			</div>
+			<div>		          
+		      <label for="subject">
+		      <span>Subject: </span>
+			    <select id="subject" name="subject" tabindex="4">  
+			      	 <option value="General">General Quetions</option> 
+			         <option value="PC911">PC 911 Computer Repair</option>
+			         <option value="Web">Web Development</option>  
+			    </select>
+		      </label>
+			</div>
+			<div>		          
+		      <label for="message">
+		      	<span class="required">Message: *</span> 
+		      	<textarea id="message" name="message" placeholder="Please write your message here." tabindex="5" required="required"></textarea> 
+		      </label>  
+			</div>
+			<div>	
+			  <h3>Clicking Send Email will open the message in your default email service!</h3>	
+		      <button name="submit" id="submit" input type="submit" value="submit" />Send Email to Richard</button> 
+		      <button name="reset" id="reset" input type="reset" value="reset" />Reset</button>
+			</div>
+		   </form>
+
+	</div>
+	<div class="social">
+	<h2>Connect with me on LinkedIn</h2>
+	<a href="https://www.linkedin.com/in/richard-tanner-04974565" title="LinkedIn"><img src="icons/linkedin.png" width="100" height="100" alt=""></a>
+    </div>
+
+</div>
+
+</body>
+
+<footer>
+<nav>
+	<a href="#home">HOME</a>
+	<a href="#about me">ABOUT ME</a>
+	<a href="#portfolio">PORTFOLIO</a>
+	<a href="#contact">CONTACT</a>
+</nav>
+
+
+	<br>
+	Copyright &#169 Richard A. Tanner July 2019
+</footer>
+</html>
